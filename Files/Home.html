@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- OVERALL PROJECT PROGRESS 65%
+        EveryTime changes happens, Change the project progress %-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <!-- Links Grp -->
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="Home-Content.css" />
+    <link rel="stylesheet" href="AnimationText.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <!-- Header Grp -->
+    <div id="Header">
+        <div id="Logo">
+            <a href="Home.html">
+            <img src="Img/logoPic2.jpg" />
+            </a>
+        </div>
+
+        <nav>
+            <div id="menu">
+                <ul>
+                    <!-- Link it to diff page -->
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="Service.html">Services</a></li>
+                    <li><a href="PaymentPolicies.html">Payment Policies</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- TextAnimation Part-->
+    <div id="subHeader">
+        <h1>We care about <span class="auto-type"></span></h1>
+    </div>
+    <script src="AnimationText.js" type="text/javascript"></script>
+
+    <main>
+        <!-- Section 1 below subhead -->
+        <section>
+            <div id="welcome">
+                <h1 class="title">Welcome</h1>
+                <p>Life can have unexpected moments and you may need medical care at such times.
+                While your regular health insurance policy covers hospitalization expenses, many incidental
+                costs may not be covered. The clinic's cash insurance product
+                covers you by providing you with a cash allowance for each day of hospitalization.</p>
+                <div class="row">
+                    <!-- img 1 -->
+                    <div class="column">
+                        <img src="Img/clinic1.jpg" alt="clinic" style="width:100%" onclick="imageFunction(this)" />
+                    </div>
+                    <!-- img 2 -->
+                    <div class="column">
+                        <img src="Img/clinic2.jpg" alt="clinic" style="width:100%" onclick="imageFunction(this)" />
+                    </div>
+                    <div class="column">
+                        <img src="Img/clinic3.jpg" alt="clinic" style="width:100%" onclick="imageFunction(this)" />
+                    </div>
+                    <div class="column">
+                        <img src="Img/clinic4.jpg" alt="clinic" style="width:100%" onclick="imageFunction(this)" />
+                    </div>
+                </div>
+                <h1 class="title">More Info</h1>
+                <p>Healthcare and wellbeing are our reasons for being and excellence of care is in our DNA.
+                we are home to the best names in regional and global healthcare across different hospitals and 
+                100+ clinical facilities.
+                Dedicated to providing conscientious healthcare, offering integrated, patient-centered care in over three branches.</p>
+                <div class="container1">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    <img id="expandedImg" style="width:100%">
+                    <div id="imgtext"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 2 below section 1 -->
+        <!-- Need to separate. Create column and row, goal == 3 -->
+        <section class="container" id="section-2">
+            <!-- Column 1 -->
+            <div class="row">
+                <div id="column1">
+                    <div class="column-title">
+                        <h2>About Us</h2>
+                    </div>
+                    <p>
+                        From the moment you enter the doors of our medical clinics, your 
+                        healthcare concerns will be tended to and assisted by our trained and experienced staff.
+                    </p>
+                    <button onclick="window.location.href='AboutUs.html'"> Learn More</button>
+                </div>
+                <!-- Column 2 -->
+                <div id="column2">
+                    <div class="column-title">
+                        <h2>Services</h2>
+                    </div>
+                    <p>
+                        The clinic is capable of meeting all your healthcare needs.
+                        Availability of our clinic, our range of expert 
+                        medical professionals and extensiveness of services available
+
+                    </p>
+                    <button onclick="window.location.href='Service.html'"> Learn More</button>
+                </div>
+                <!-- Column 3 -->
+                <div id="column3">
+                    <div class="column-title">
+                        <h2>Payment Policies</h2>
+                    </div>
+                    <p>
+                        Any question regarding to the payment. Such as for patients with insurance,
+                        and for patients without insurance. Please refer to our payment policies to learn more.
+                    </p>
+                    <button onclick="window.location.href='PaymentPolicies.html'"> Learn More</button>
+                </div>
+            </div>
+        </section>
+        <section>
+        <div class="picture"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <!-- Details:
+         enquiry email
+        address
+        copyrights -->
+    <!-- fa fa-someting-something == icon tags -->
+    <footer id="footer">
+        <div class="website-details">
+            <div class="row">
+                <div id="col1">
+                    <span id="icon" class="fa fa-map-marker"></span>
+                    <h3>
+                        Location 1234
+                        <br />st 1234
+                    </h3>
+                </div>
+
+                <div id="col2">
+                    <span id="icon" class="fa fa-phone"></span>
+
+                    <h3>
+                        Phone: 1234+
+                    </h3>
+                </div>
+
+                <div id="col3">
+                    <span id="icon" class="fa fa-envelope"></span>
+                    <h3>something@gmail.com</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="copyright">
+            <p>© Copyright 2022</p>
+            <ul class="contact">
+                <li>
+                    <a href="#" class="fa fa-twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-pinterest-p">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+﻿
+body {
+    margin:0;
+    padding:0;
+}
+/*Header Grp*/
+#Header {
+    margin-top: -30px;
+    overflow: hidden;
+    background-color: white;
+}
+/*Logo Grp*/
+#Logo {
+    float:left;
+    padding:0;
+    margin:0;
+    height:100px;
+    width:100px;
+}
+#Logo img{
+    width:110px;
+    height:100px;
+    padding:5px;
+    float:left;
+}
+/*Menu Grp*/
+#menu {
+    margin-top: 40px;
+    background-color: white;
+    color: black;
+    float: right;
+    border-radius: 5px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#menu ul{
+    text-align:center;
+    list-style-type:none;
+    float:right;
+    margin:0;
+    padding:0;
+}
+#menu ul li{
+    display:inline-block;
+    text-align:center;
+    padding:10px;
+    margin-right:5px;
+}
+#menu li a{
+    color:black;
+    text-decoration:none;
+}
+    #menu li:hover a {
+        background-color: white;
+        color: cornflowerblue;
+        border-left: 0px solid #0074D9;
+    }
+
+
+    /*Footer Grp*/
+.website-details h3{
+        font-size:15px;
+        color:white;
+        font-weight:200;
+    }
+.website-details {
+    overflow: hidden;
+    padding: 0.5em 0em;
+    background: #6DA9C3;
+    text-align: center;
+    margin-top: 5em;
+}
+#footer #col1,
+#footer #col2,
+#footer #col3 {
+    float: left;
+    width: 320px;
+    padding: 0px 40px 0px 40px;
+    margin-left:7.5%;
+}
+
+#footer #icon {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    color:white;
+}
+
+.copyright {
+    overflow: hidden;
+    padding: 0.5em 0em;
+    border-top: 20px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+    background: #EBEBEB;
+}
+
+    .copyright p {
+        letter-spacing: 1px;
+        font-size: 0.90em;
+        color: black;
+    }
+
+    .copyright a {
+        text-decoration: none;
+        color: black;
+    }
+
+/*Icons*/
+ul.contact {
+    margin: 0;
+    padding: 2em 0em 0em 0em;
+    list-style: none;
+}
+
+    ul.contact li {
+        display: inline-block;
+        padding: 0em 0.10em;
+        font-size: 1em;
+    }
+
+        ul.contact li a {
+            color: #FFF;
+            display: inline-block;
+            background: #4C93B9;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }

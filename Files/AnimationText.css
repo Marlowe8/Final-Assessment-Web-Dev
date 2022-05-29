@@ -1,0 +1,30 @@
+﻿body {
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+#subHeader {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.100),rgba(0, 0, 0, 0.5)), url("Img/DoctorHelping.jpg");
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+    #subHeader h1 {
+        font-size: 80px;
+        font-weight: 600;
+    }
+
+span {
+    color: yellow;
+}
